@@ -1,0 +1,27 @@
+{
+  "default_repo": {
+    "display_name": "Default GitHub repo (org/repo)",
+    "description": "Repository to create issues in, e.g. my-org/my-repo",
+    "type": "text",
+    "required": true
+  },
+  "labels": {
+    "display_name": "Default labels (comma-separated)",
+    "description": "Optional labels to apply when creating issues, e.g. bug, customer",
+    "type": "text",
+    "required": false
+  },
+  "store_in_ticket_note": {
+    "display_name": "Store issue link in a private ticket note",
+    "description": "If enabled, the app adds a private note with the GitHub issue link (requires Freshdesk API key below).",
+    "type": "checkbox",
+    "required": false
+  },
+  "freshdesk_api_key": {
+    "display_name": "Freshdesk API key (optional, for private note)",
+    "description": "Used only when adding a private note. Enter as APIKEY:X (the platform will Base64-encode it).",
+    "type": "text",
+    "required": false,
+    "secure": true
+  }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub Issue</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="{{{appclient}}}"></script>
+    <script
+      async
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"
+    ></script>
+    <script
+      async
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"
+    ></script>
+  </head>
+  <body>
+    <fw-toast id="toast" position="top-center"></fw-toast>
+
+    <div class="container">
+      <div>
+        <div class="title">GitHub Issue</div>
+        <div class="muted" id="repoText"></div>
+      </div>
+
+      <div class="issueBox" id="issueBox" style="display: none;">
+        <div><strong>Linked issue</strong></div>
+        <div class="issueLink" id="issueLink"></div>
+        <div class="row">
+          <fw-button id="unlinkBtn" size="small" color="danger">Unlink</fw-button>
+        </div>
+      </div>
+
+      <div class="spinnerRow" id="loadingRow">
+        <fw-spinner size="small"></fw-spinner>
+        <div class="muted" id="loadingText">Working…</div>
+      </div>
+
+      <div class="actions">
+        <fw-button id="createIssueBtn" color="primary">Create GitHub Issue</fw-button>
+
+        <div class="divider"></div>
+
+        <div class="muted">Optional: link an existing issue (in the default repo)</div>
+        <div class="linkRow">
+          <fw-input
+            id="existingIssueNumber"
+            label="Issue number"
+            placeholder="e.g. 123"
+          ></fw-input>
+          <fw-button id="linkIssueBtn" size="small">Link</fw-button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
