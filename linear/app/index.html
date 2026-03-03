@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+  <script async nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="{{{appclient}}}"></script>
+</head>
+<body>
+  <div class="app-container">
+
+    <div id="loading-section" class="section">
+      <div class="center">
+        <fw-spinner size="medium"></fw-spinner>
+        <p class="loading-text">Loading...</p>
+      </div>
+    </div>
+
+    <div id="linked-section" class="section" style="display:none;">
+      <div class="card card-no-header">
+        <div class="card-body">
+          <div id="linked-issues-list" class="linked-issues-list"></div>
+          <div class="issue-actions">
+            <fw-button id="create-another-btn" color="primary" size="small">Create</fw-button>
+            <fw-button id="link-existing-from-linked-btn" color="secondary" size="small">Link issue</fw-button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="no-link-section" class="section" style="display:none;">
+      <div class="action-buttons">
+        <fw-button id="open-create-modal-btn" color="primary" size="small">Create</fw-button>
+        <fw-button id="open-link-modal-btn" color="secondary" size="small">Link issue</fw-button>
+      </div>
+    </div>
+
+  </div>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

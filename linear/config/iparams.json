@@ -1,0 +1,9 @@
+{
+  "linear_api_key": {
+    "display_name": "Linear API Key",
+    "description": "Personal API key from Linear (Settings > Security & Access)",
+    "type": "text",
+    "required": true,
+    "secure": true
+  }
+}
