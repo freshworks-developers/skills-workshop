@@ -1,0 +1,61 @@
+{
+  "region": "US",
+  "data": {
+    "ticket": {
+      "model_id": 28939101,
+      "subject": "I can log in to the portal",
+      "description": "<div>Steps to reproduce: navigate to /login, enter credentials, click Sign In. Error: 500 Internal Server Error.</div>",
+      "is_description_truncated": false,
+      "description_text": "Steps to reproduce: navigate to /login, enter credentials, click Sign In. Error: 500 Internal Server Error.",
+      "due_by": "2026-03-05T13:00:00Z",
+      "fr_due_by": "2026-03-04T13:00:00Z",
+      "fr_escalated": false,
+      "is_escalated": false,
+      "fwd_emails": [],
+      "reply_cc_emails": [],
+      "email_config_id": null,
+      "id": 1042,
+      "group_id": null,
+      "product_id": null,
+      "company_id": null,
+      "requester_id": 48014615863,
+      "responder_id": 48,
+      "status": 2,
+      "priority": 2,
+      "type": null,
+      "tags": [
+        "login",
+        "portal",
+        "bug"
+      ],
+      "spam": false,
+      "source": 3,
+      "created_at": "2026-03-03T08:30:00Z",
+      "updated_at": "2026-03-03T08:30:00Z",
+      "attachments": [],
+      "custom_fields": {},
+      "account_id": 13
+    },
+    "actor": {
+      "id": 48,
+      "name": "Support Agent",
+      "email": "agent@sample.freshdesk.com",
+      "type": "agent"
+    },
+    "requester": {
+      "id": 48014615863,
+      "name": "Rachel Green",
+      "email": "rachel.green@example.com",
+      "mobile": null,
+      "phone": null,
+      "language": "en",
+      "created_at": "2026-01-15T09:00:00Z"
+    }
+  },
+  "event": "onTicketCreate",
+  "timestamp": 1741063800,
+  "iparams": {
+    "supabase_project_ref": "your-project-ref",
+    "table_name": "ticket_snapshots"
+  }
+}

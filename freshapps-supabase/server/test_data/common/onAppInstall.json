@@ -1,0 +1,9 @@
+{
+  "timestamp": 1741046400000,
+  "event": "onAppInstall",
+  "region": "US",
+  "iparams": {
+    "supabase_project_ref": "your-project-ref",
+    "table_name": "ticket_snapshots"
+  }
+}

@@ -1,0 +1,9 @@
+# FDK local state
+.fdk/
+
+# Agent skills
+.agents/
+
+# Logs
+*.log
+logs/

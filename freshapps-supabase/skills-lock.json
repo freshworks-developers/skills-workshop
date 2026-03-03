@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "app-dev": {
+      "source": "freshworks-developers/marketplace",
+      "sourceType": "github",
+      "computedHash": "632e81af3f7634e978fa48f1edf5537628934b2937717e010b45ab8d76f93013"
+    }
+  }
+}

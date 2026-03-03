@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Supabase Ticket Sync</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Freshworks App Client (required for client.iparams, client.data, etc.) -->
+  <script async src="{{{appclient}}}"></script>
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- Header -->
+    <div class="header">
+      <img src="styles/images/icon.svg" alt="Supabase" class="header-icon" />
+      <div class="header-text">
+        <span class="header-title">Supabase Sync</span>
+        <span class="header-sub">Ticket Snapshot Storage</span>
+      </div>
+    </div>
+
+    <!-- Status banner -->
+    <div id="status-banner" class="status-banner status-active">
+      <span class="status-dot"></span>
+      <span id="status-text">Syncing tickets to Supabase on creation</span>
+    </div>
+
+    <!-- Ticket info card -->
+    <div id="ticket-card" class="info-card hidden">
+      <div class="card-row">
+        <span class="card-label">Ticket ID</span>
+        <span id="ticket-id" class="card-value mono">—</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">Subject</span>
+        <span id="ticket-subject" class="card-value truncate">—</span>
+      </div>
+      <div class="card-row">
+        <span class="card-label">Table</span>
+        <span id="table-name" class="card-value mono">—</span>
+      </div>
+    </div>
+
+    <!-- SQL Reports section -->
+    <div class="section">
+      <div class="section-title">Sample SQL Queries</div>
+
+      <div class="query-block">
+        <div class="query-label">Open tickets by priority</div>
+        <pre class="query-code" id="q1">SELECT priority, COUNT(*) AS total
+FROM ticket_snapshots
+WHERE status = 'Open'
+GROUP BY priority
+ORDER BY total DESC;</pre>
+        <button class="copy-btn" data-target="q1">Copy</button>
+      </div>
+
+      <div class="query-block">
+        <div class="query-label">Tickets created in the last 7 days</div>
+        <pre class="query-code" id="q2">SELECT ticket_id, subject,
+       requester_email, status, priority
+FROM ticket_snapshots
+WHERE created_at >= NOW() - INTERVAL '7 days'
+ORDER BY created_at DESC;</pre>
+        <button class="copy-btn" data-target="q2">Copy</button>
+      </div>
+
+      <div class="query-block">
+        <div class="query-label">Tickets by tag</div>
+        <pre class="query-code" id="q3">SELECT ticket_id, subject, tags
+FROM ticket_snapshots
+WHERE 'billing' = ANY(tags)
+ORDER BY created_at DESC;</pre>
+        <button class="copy-btn" data-target="q3">Copy</button>
+      </div>
+
+      <div class="query-block">
+        <div class="query-label">Daily ticket volume (last 30 days)</div>
+        <pre class="query-code" id="q4">SELECT DATE(created_at) AS day,
+       COUNT(*) AS tickets
+FROM ticket_snapshots
+WHERE created_at >= NOW() - INTERVAL '30 days'
+GROUP BY day
+ORDER BY day;</pre>
+        <button class="copy-btn" data-target="q4">Copy</button>
+      </div>
+    </div>
+
+    <!-- Connection info -->
+    <div class="section">
+      <div class="section-title">Connection</div>
+      <div class="info-card">
+        <div class="card-row">
+          <span class="card-label">Project</span>
+          <span id="project-ref" class="card-value mono">—</span>
+        </div>
+        <div class="card-row">
+          <span class="card-label">Table</span>
+          <span id="conn-table" class="card-value mono">—</span>
+        </div>
+        <div class="card-row">
+          <span class="card-label">Endpoint</span>
+          <span id="conn-endpoint" class="card-value mono truncate">—</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="error-msg" class="error-msg hidden"></div>
+
+  </div><!-- /app-container -->
+</body>
+<script defer src="scripts/app.js"></script>
+<script
+  async
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js">
+</script>
+<script
+  async
+  nomodule
+  src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js">
+</script>
+</html>

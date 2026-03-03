@@ -1,0 +1,32 @@
+{
+  "supabaseInsert": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "<%= iparam.supabase_project_ref %>.supabase.co",
+      "path": "/rest/v1/<%= iparam.table_name %>",
+      "headers": {
+        "apikey": "<%= iparam.supabase_key %>",
+        "Authorization": "Bearer <%= iparam.supabase_key %>",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal"
+      }
+    }
+  },
+  "supabaseCheck": {
+    "schema": {
+      "protocol": "https",
+      "method": "GET",
+      "host": "<%= iparam.supabase_project_ref %>.supabase.co",
+      "path": "/rest/v1/<%= iparam.table_name %>",
+      "headers": {
+        "apikey": "<%= iparam.supabase_key %>",
+        "Authorization": "Bearer <%= iparam.supabase_key %>",
+        "Content-Type": "application/json"
+      },
+      "query": {
+        "limit": "0"
+      }
+    }
+  }
+}
