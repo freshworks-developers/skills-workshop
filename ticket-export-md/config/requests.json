@@ -1,0 +1,13 @@
+{
+  "sendToWebhook": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "<%= context.webhook_host %>",
+      "path": "<%= context.webhook_path %>",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "webhook_url": {
+    "display_name": "Webhook URL (optional)",
+    "description": "Optional. Paste a webhook URL to send ticket exports. Leave empty to disable. Example for testing: https://webhook.site/550d53cb-f213-4b3d-88a0-b77765bc48b9",
+    "type": "text",
+    "required": false
+  }
+}
