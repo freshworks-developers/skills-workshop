@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script async type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+  <script async nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="{{{appclient}}}"></script>
+</head>
+<body>
+  <div class="modal-form-container">
+    <fw-input id="issue-title" label="Title" required placeholder="Issue title"></fw-input>
+    <fw-textarea id="issue-description" label="Description" rows="4" placeholder="Describe the issue..."></fw-textarea>
+    <fw-select id="team-select" label="Team" required placeholder="Select a team" hoist></fw-select>
+    <fw-select id="project-select" label="Project (Optional)" placeholder="None" hoist></fw-select>
+    <div class="form-actions">
+      <fw-button id="create-submit-btn" color="primary">Create Issue</fw-button>
+      <fw-button id="create-cancel-btn" color="secondary">Cancel</fw-button>
+    </div>
+  </div>
+  <script src="createIssue.js"></script>
+</body>
+</html>

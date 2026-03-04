@@ -1,0 +1,34 @@
+{
+  "platform-version": "3.0",
+  "modules": {
+    "common": {
+      "requests": {
+        "linearGraphQL": {}
+      },
+      "functions": {
+        "getLinearTeams": {},
+        "getLinearProjects": {},
+        "createLinearIssue": { "timeout": 15 },
+        "getLinkedIssue": {},
+        "searchLinearIssues": {},
+        "linkLinearIssue": {},
+        "unlinkLinearIssue": {}
+      },
+      "events": {
+        "onAppInstall": { "handler": "onAppInstallHandler" }
+      }
+    },
+    "support_ticket": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.7.4"
+  }
+}

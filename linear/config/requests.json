@@ -1,0 +1,13 @@
+{
+  "linearGraphQL": {
+    "schema": {
+      "method": "POST",
+      "host": "api.linear.app",
+      "path": "/graphql",
+      "headers": {
+        "Authorization": "<%= iparam.linear_api_key %>",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
