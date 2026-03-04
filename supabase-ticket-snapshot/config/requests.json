@@ -1,0 +1,44 @@
+{
+  "supabaseInsert": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "<%= iparam.supabase_host %>",
+      "path": "/rest/v1/<%= iparam.table_name %>",
+      "headers": {
+        "apikey": "<%= iparam.supabase_key %>",
+        "Authorization": "Bearer <%= iparam.supabase_key %>",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal"
+      }
+    }
+  },
+  "supabaseCreateTable": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "<%= iparam.supabase_host %>",
+      "path": "/rest/v1/rpc/create_ticket_snapshots_table",
+      "headers": {
+        "apikey": "<%= iparam.supabase_key %>",
+        "Authorization": "Bearer <%= iparam.supabase_key %>",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal"
+      }
+    }
+  },
+  "supabaseCheckTable": {
+    "schema": {
+      "protocol": "https",
+      "method": "GET",
+      "host": "<%= iparam.supabase_host %>",
+      "path": "/rest/v1/<%= iparam.table_name %>",
+      "headers": {
+        "apikey": "<%= iparam.supabase_key %>",
+        "Authorization": "Bearer <%= iparam.supabase_key %>",
+        "Range": "0-0",
+        "Prefer": "count=exact"
+      }
+    }
+  }
+}

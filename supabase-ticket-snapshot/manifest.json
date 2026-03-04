@@ -1,0 +1,28 @@
+{
+  "platform-version": "3.0",
+  "modules": {
+    "common": {
+      "events": {
+        "onAppInstall": {
+          "handler": "onAppInstallHandler"
+        }
+      },
+      "requests": {
+        "supabaseInsert": {},
+        "supabaseCreateTable": {},
+        "supabaseCheckTable": {}
+      }
+    },
+    "support_ticket": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.20.8",
+    "fdk": "9.8.2"
+  }
+}

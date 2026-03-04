@@ -1,0 +1,22 @@
+{
+  "supabase_host": {
+    "display_name": "Supabase Project Host",
+    "description": "Your Supabase project hostname (e.g., xxxxx.supabase.co - without https://)",
+    "type": "text",
+    "required": true
+  },
+  "supabase_key": {
+    "display_name": "Supabase API Key",
+    "description": "Your Supabase anon key or service role key",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "table_name": {
+    "display_name": "Table Name",
+    "description": "Name of the table to store ticket snapshots (default: ticket_snapshots)",
+    "type": "text",
+    "required": false,
+    "default_value": "ticket_snapshots"
+  }
+}
