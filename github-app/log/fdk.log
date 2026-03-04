@@ -1,0 +1,735 @@
+2026-03-03 13:27:56.710 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:27:56.713 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 13:27:56.713 +0530 [debug] (file.js) Error while requiring /Users/kramasamy/Downloads/agent skills/github-app/.fdk/configs.json: Cannot find module '/Users/kramasamy/Downloads/agent skills/github-app/.fdk/configs.json'
+Require stack:
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/utils/file.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/configs.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/logger.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/index.js
+2026-03-03 13:27:56.713 +0530 [debug] (file.js) Error while requiring /Users/kramasamy/Downloads/agent skills/github-app/.fdk/configs.json: Cannot find module '/Users/kramasamy/Downloads/agent skills/github-app/.fdk/configs.json'
+Require stack:
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/utils/file.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/configs.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/logger.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/index.js
+2026-03-03 13:27:56.713 +0530 [debug] (configs.js) loaded local configs as "{}"
+2026-03-03 13:27:56.713 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 13:27:56.713 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:27:56.713 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 13:27:56.713 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 13:27:56.714 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:27:56.714 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 13:27:56.716 +0530 [debug] (index.js) running with opts {}
+2026-03-03 13:27:56.726 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:27:56.729 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.7.4"}}.
+2026-03-03 13:27:56.729 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 13:27:56.729 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 13:27:56.729 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:27:56.896 +0530 [debug] (file.js) Error while requiring /Users/kramasamy/Downloads/agent skills/github-app/.report.json: Cannot find module '/Users/kramasamy/Downloads/agent skills/github-app/.report.json'
+Require stack:
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/utils/file.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/configs.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/logger.js
+- /Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/index.js
+2026-03-03 13:27:56.899 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 13:27:56.899 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 13:27:57.329 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.338 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.339 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.339 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.341 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.343 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.344 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.348 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.349 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.349 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.352 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.354 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.357 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.357 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.357 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.360 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.361 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.372 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:27:57.814 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 13:27:57.814 +0530 [debug] (validate.js) running validator actions
+2026-03-03 13:27:57.815 +0530 [debug] (validate.js) running validator requests
+2026-03-03 13:27:57.815 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 13:27:57.815 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 13:27:57.815 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 13:27:57.815 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 13:27:57.815 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 13:27:57.815 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 13:27:57.816 +0530 [debug] (validate.js) running validator event
+2026-03-03 13:27:57.825 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:27:57.826 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 13:27:57.828 +0530 [debug] (validate.js) running validator lint
+2026-03-03 13:27:57.828 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 13:27:57.829 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 13:27:57.907 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 13:27:57.927 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 13:27:57.927 +0530 [debug] (validate.js) running validator manifest-dependency
+2026-03-03 13:27:57.927 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 13:27:57.928 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 13:27:57.928 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 13:27:57.928 +0530 [debug] (validate.js) skipping validator schema
+2026-03-03 13:27:57.928 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 13:27:57.928 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 13:27:57.930 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:27:57.930 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 13:27:57.931 +0530 [info] FDK version mismatch. App was developed in 9.7.4 and is being run in 9.8.1.
+2026-03-03 13:27:57.931 +0530 [info] FDK version in manifest is being updated to the current version.
+2026-03-03 13:27:57.931 +0530 [debug] (version-check.js) about to modify FDK version in manifest
+2026-03-03 13:27:57.932 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 13:27:57.932 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 13:27:57.932 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 13:27:57.934 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 13:27:57.934 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 13:27:57.934 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 13:27:57.935 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 13:27:57.935 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 13:27:57.937 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:27:57.937 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:27:57.937 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:27:57.937 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:27:57.937 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:27:57.939 +0530 [error] Validation failed due to the following issue(s):
+2026-03-03 13:27:57.939 +0530 [error] Platform errors:
+2026-03-03 13:27:57.939 +0530 [error] ✖ Invalid key(s), default, found in the 'store_in_ticket_note' field.
+2026-03-03 13:27:57.939 +0530 [error] 
+2026-03-03 13:27:57.939 +0530 [error] 
+2026-03-03 13:27:57.939 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2026-03-03 13:27:57.939 +0530 [warn] ⚠ app/scripts/app.js::47: Async function 'init' has a complexity of 8. Maximum allowed is 7.
+2026-03-03 13:27:57.939 +0530 [warn] ⚠ app/scripts/app.js::128: Async function has a complexity of 15. Maximum allowed is 7.
+2026-03-03 13:27:57.939 +0530 [warn] ⚠ server/server.js::37: Async method 'createGithubIssue' has a complexity of 12. Maximum allowed is 7.
+2026-03-03 13:27:57.939 +0530 [warn] ⚠ server/server.js::89: Async method 'linkExistingIssue' has a complexity of 15. Maximum allowed is 7.
+2026-03-03 13:27:57.939 +0530 [warn] ⚠ server/server.js::184: Function 'buildGithubIssueBody' has a complexity of 8. Maximum allowed is 7.
+2026-03-03 13:27:57.940 +0530 [warn] ⚠ server/server.js::202: Async function 'maybeAddTicketNote' has a complexity of 12. Maximum allowed is 7.
+2026-03-03 13:27:57.940 +0530 [warn] 
+2026-03-03 13:27:57.940 +0530 [info] ================================================================
+2026-03-03 13:27:57.940 +0530 [info] |                      Validation Summary                      |
+2026-03-03 13:27:57.940 +0530 [info] ================================================================
+2026-03-03 13:27:57.940 +0530 [info] | [1;31mTotal Platform Errors: 1[0m                                     |
+2026-03-03 13:27:57.940 +0530 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2026-03-03 13:27:57.940 +0530 [info] | [1;33mTotal Warnings       : 6[0m                                     |
+2026-03-03 13:27:57.940 +0530 [info] ================================================================
+
+2026-03-03 13:27:57.940 +0530 [info] ✔ Validation Successful
+2026-03-03 13:27:57.947 +0530 [debug] (report.js) Generating hash for report.json file
+2026-03-03 13:32:35.713 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:32:35.715 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 13:32:35.715 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-03-03 13:32:35.715 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 13:32:35.715 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:32:35.715 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 13:32:35.716 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 13:32:35.716 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:32:35.716 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 13:32:35.718 +0530 [debug] (index.js) running with opts {}
+2026-03-03 13:32:35.729 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:32:35.730 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 13:32:35.731 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 13:32:35.731 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 13:32:35.732 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:32:35.904 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 13:32:35.904 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 13:32:36.297 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.305 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.306 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.306 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.308 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.310 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.311 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.315 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.315 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.316 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.319 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.320 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.322 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.322 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.323 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.324 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.326 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.337 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:32:36.682 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 13:32:36.682 +0530 [debug] (validate.js) running validator actions
+2026-03-03 13:32:36.682 +0530 [debug] (validate.js) running validator requests
+2026-03-03 13:32:36.682 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 13:32:36.682 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 13:32:36.683 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 13:32:36.683 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 13:32:36.683 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 13:32:36.683 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 13:32:36.683 +0530 [debug] (validate.js) running validator event
+2026-03-03 13:32:36.694 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:32:36.694 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 13:32:36.696 +0530 [debug] (validate.js) running validator lint
+2026-03-03 13:32:36.697 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 13:32:36.698 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 13:32:36.769 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 13:32:36.790 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 13:32:36.790 +0530 [debug] (validate.js) running validator manifest-dependency
+2026-03-03 13:32:36.790 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 13:32:36.790 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 13:32:36.791 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 13:32:36.791 +0530 [debug] (validate.js) skipping validator schema
+2026-03-03 13:32:36.791 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 13:32:36.791 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 13:32:36.794 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:32:36.794 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 13:32:36.801 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 13:32:36.801 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 13:32:36.801 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 13:32:36.802 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 13:32:36.802 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 13:32:36.804 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:32:36.804 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:32:36.804 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:32:36.804 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:32:36.804 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:32:36.806 +0530 [warn] Please ensure that the following are addressed for quick review process:
+2026-03-03 13:32:36.806 +0530 [warn] ⚠ server/server.js::60: Async method 'linkExistingIssue' has a complexity of 9. Maximum allowed is 7.
+2026-03-03 13:32:36.806 +0530 [warn] ⚠ server/server.js::147: Async function 'maybeAddTicketNote' has a complexity of 8. Maximum allowed is 7.
+2026-03-03 13:32:36.806 +0530 [warn] 
+2026-03-03 13:32:36.806 +0530 [info] ================================================================
+2026-03-03 13:32:36.806 +0530 [info] |                      Validation Summary                      |
+2026-03-03 13:32:36.806 +0530 [info] ================================================================
+2026-03-03 13:32:36.806 +0530 [info] | [1;31mTotal Platform Errors: 0[0m                                     |
+2026-03-03 13:32:36.806 +0530 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2026-03-03 13:32:36.806 +0530 [info] | [1;33mTotal Warnings       : 2[0m                                     |
+2026-03-03 13:32:36.806 +0530 [info] ================================================================
+
+2026-03-03 13:32:36.806 +0530 [info] ✔ Validation Successful
+2026-03-03 13:32:36.810 +0530 [debug] (report.js) Generating hash for report.json file
+2026-03-03 13:33:10.272 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:33:10.275 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 13:33:10.275 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-03-03 13:33:10.275 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 13:33:10.275 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:33:10.275 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 13:33:10.275 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 13:33:10.275 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:10.275 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 13:33:10.278 +0530 [debug] (index.js) running with opts {}
+2026-03-03 13:33:10.287 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:10.289 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 13:33:10.289 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 13:33:10.289 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 13:33:10.290 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:10.429 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 13:33:10.429 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 13:33:10.755 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.764 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.765 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.766 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.768 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.769 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.770 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.774 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.775 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.775 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.779 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.781 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.783 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.783 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.784 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.786 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.788 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:10.799 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:11.149 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 13:33:11.150 +0530 [debug] (validate.js) running validator actions
+2026-03-03 13:33:11.150 +0530 [debug] (validate.js) running validator requests
+2026-03-03 13:33:11.150 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 13:33:11.150 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 13:33:11.150 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 13:33:11.151 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 13:33:11.151 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 13:33:11.151 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 13:33:11.151 +0530 [debug] (validate.js) running validator event
+2026-03-03 13:33:11.161 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:33:11.161 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 13:33:11.163 +0530 [debug] (validate.js) running validator lint
+2026-03-03 13:33:11.164 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 13:33:11.165 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 13:33:11.228 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 13:33:11.249 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 13:33:11.250 +0530 [debug] (validate.js) running validator manifest-dependency
+2026-03-03 13:33:11.250 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 13:33:11.250 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 13:33:11.250 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 13:33:11.250 +0530 [debug] (validate.js) skipping validator schema
+2026-03-03 13:33:11.250 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 13:33:11.250 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 13:33:11.253 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:33:11.253 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 13:33:11.255 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 13:33:11.255 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 13:33:11.255 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 13:33:11.256 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 13:33:11.256 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 13:33:11.258 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:33:11.258 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:33:11.258 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:33:11.258 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:33:11.258 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:33:11.260 +0530 [info] ================================================================
+2026-03-03 13:33:11.260 +0530 [info] |                      Validation Summary                      |
+2026-03-03 13:33:11.260 +0530 [info] ================================================================
+2026-03-03 13:33:11.260 +0530 [info] | [1;31mTotal Platform Errors: 0[0m                                     |
+2026-03-03 13:33:11.260 +0530 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2026-03-03 13:33:11.260 +0530 [info] | [1;33mTotal Warnings       : 0[0m                                     |
+2026-03-03 13:33:11.260 +0530 [info] ================================================================
+
+2026-03-03 13:33:11.260 +0530 [info] ✔ Validation Successful
+2026-03-03 13:33:11.264 +0530 [debug] (report.js) Generating hash for report.json file
+2026-03-03 13:33:27.498 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:33:27.500 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 13:33:27.501 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-03-03 13:33:27.501 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 13:33:27.501 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 13:33:27.501 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 13:33:27.501 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 13:33:27.501 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:27.501 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 13:33:27.503 +0530 [debug] (index.js) running with opts {}
+2026-03-03 13:33:29.457 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:29.459 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 13:33:29.459 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 13:33:29.459 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 13:33:29.483 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:29.618 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 13:33:29.619 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 13:33:29.644 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/bigint-pivot.js"
+2026-03-03 13:33:29.645 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/entity-field-choice.js"
+2026-03-03 13:33:29.645 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/entity-field.js"
+2026-03-03 13:33:29.646 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/entity.js"
+2026-03-03 13:33:29.646 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/files.js"
+2026-03-03 13:33:29.646 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/oauth-details.js"
+2026-03-03 13:33:29.647 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/record.js"
+2026-03-03 13:33:29.648 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/string-pivot.js"
+2026-03-03 13:33:29.726 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.733 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.733 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.734 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.735 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.737 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.737 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.743 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.744 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.744 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.747 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.749 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.751 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.752 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.752 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.754 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.775 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:29.803 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 13:33:30.052 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 13:33:30.528 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 13:33:30.529 +0530 [debug] (validate.js) running validator actions
+2026-03-03 13:33:30.529 +0530 [debug] (validate.js) running validator requests
+2026-03-03 13:33:30.529 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 13:33:30.529 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 13:33:30.529 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 13:33:30.529 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 13:33:30.529 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 13:33:30.529 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 13:33:30.529 +0530 [debug] (validate.js) running validator event
+2026-03-03 13:33:30.540 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:33:30.540 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 13:33:30.542 +0530 [debug] (validate.js) running validator lint
+2026-03-03 13:33:30.542 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 13:33:30.543 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 13:33:30.604 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 13:33:30.627 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 13:33:30.627 +0530 [debug] (validate.js) skipping validator manifest-dependency
+2026-03-03 13:33:30.627 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 13:33:30.627 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 13:33:30.627 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 13:33:30.628 +0530 [debug] (validate.js) running validator schema
+2026-03-03 13:33:30.628 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 13:33:30.628 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 13:33:30.630 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 13:33:30.630 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 13:33:30.632 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 13:33:30.632 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 13:33:30.633 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 13:33:30.633 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 13:33:30.633 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 13:33:30.635 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:33:30.635 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:33:30.635 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:33:30.635 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 13:33:30.635 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 13:33:30.637 +0530 [debug] (watcher.js) Preparing to watch the following files ./app,./config,./manifest.json
+2026-03-03 13:33:30.639 +0530 [debug] (install.js) dependency installer called with {}
+2026-03-03 13:33:30.640 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.640 +0530 [debug] (custom-objects.js) to force or not? undefined
+2026-03-03 13:33:30.640 +0530 [debug] (custom-objects.js) beginning to re-sync db
+2026-03-03 13:33:30.715 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.715 +0530 [debug] (custom-objects.js) updated local store with latest entity hash
+2026-03-03 13:33:30.715 +0530 [debug] (run.js) migrate stored oauth configs from localstore to sqlite
+2026-03-03 13:33:30.715 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.715 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.715 +0530 [debug] (oauth.js) Fetching by product namespace github_101_101_oauth_github
+2026-03-03 13:33:30.715 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.715 +0530 [debug] (oauth.js) Fetching by product namespace github_101_101_oauth_iparams_github
+2026-03-03 13:33:30.715 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.716 +0530 [debug] (oauth.js) Fetching by product namespace github_101_101_oauth_appstate_github
+2026-03-03 13:33:30.716 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.716 +0530 [debug] (oauth.js) successfully migrated all oauths: github
+2026-03-03 13:33:30.716 +0530 [debug] (data.js) Read {"report_hash":"625aaf5649652741dee6152a35b6daa1d51776ec4a2b67a8d38ce9d5a1b88408"}
+2026-03-03 13:33:30.716 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your current host URL to start testing    
+     
+e.g:     
+2026-03-03 13:33:30.716 +0530 [info]   https://domain.freshdesk.com/a/tickets/1?dev=true
+2026-03-03 13:33:30.716 +0530 [info] 
+Quit the server with Control-C.
+2026-03-03 13:33:30.716 +0530 [info] 
+To test the installation page, visit - http://localhost:10001/custom_configs
+2026-03-03 13:33:30.716 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2026-03-03 13:33:30.716 +0530 [info] Populating test data with events found in the app
+2026-03-03 13:33:43.455 +0530 [debug] (report.js) Generating hash for report.json file
+2026-03-03 16:34:16.002 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 16:34:16.006 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 16:34:16.006 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-03-03 16:34:16.006 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 16:34:16.006 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 16:34:16.006 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 16:34:16.006 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 16:34:16.006 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:34:16.006 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 16:34:16.009 +0530 [debug] (index.js) running with opts {}
+2026-03-03 16:34:16.023 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:34:16.025 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 16:34:16.026 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 16:34:16.026 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 16:34:16.027 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:34:16.201 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 16:34:16.201 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 16:34:16.594 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.603 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.604 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.604 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.606 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.607 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.608 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.612 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.613 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.613 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.616 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.618 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.620 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.621 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.621 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.623 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.624 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.635 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:34:16.973 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 16:34:16.973 +0530 [debug] (validate.js) running validator actions
+2026-03-03 16:34:16.973 +0530 [debug] (validate.js) running validator requests
+2026-03-03 16:34:16.973 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 16:34:16.974 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 16:34:16.974 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 16:34:16.974 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 16:34:16.974 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 16:34:16.974 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 16:34:16.974 +0530 [debug] (validate.js) running validator event
+2026-03-03 16:34:16.985 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 16:34:16.985 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 16:34:16.988 +0530 [debug] (validate.js) running validator lint
+2026-03-03 16:34:16.988 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 16:34:16.989 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 16:34:17.055 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 16:34:17.077 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 16:34:17.077 +0530 [debug] (validate.js) running validator manifest-dependency
+2026-03-03 16:34:17.077 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 16:34:17.077 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 16:34:17.078 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 16:34:17.078 +0530 [debug] (validate.js) skipping validator schema
+2026-03-03 16:34:17.078 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 16:34:17.078 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 16:34:17.085 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 16:34:17.085 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 16:34:17.087 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 16:34:17.087 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 16:34:17.087 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 16:34:17.088 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 16:34:17.088 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 16:34:17.089 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:34:17.089 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 16:34:17.090 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:34:17.090 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 16:34:17.090 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:34:17.092 +0530 [info] ================================================================
+2026-03-03 16:34:17.092 +0530 [info] |                      Validation Summary                      |
+2026-03-03 16:34:17.092 +0530 [info] ================================================================
+2026-03-03 16:34:17.092 +0530 [info] | [1;31mTotal Platform Errors: 0[0m                                     |
+2026-03-03 16:34:17.092 +0530 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2026-03-03 16:34:17.092 +0530 [info] | [1;33mTotal Warnings       : 0[0m                                     |
+2026-03-03 16:34:17.092 +0530 [info] ================================================================
+
+2026-03-03 16:34:17.092 +0530 [info] [32m✔[39m Validation Successful
+2026-03-03 16:34:17.096 +0530 [debug] (report.js) Generating hash for report.json file
+2026-03-03 16:37:04.432 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 16:37:04.437 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 16:37:04.437 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-03-03 16:37:04.437 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 16:37:04.437 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 16:37:04.437 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 16:37:04.437 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 16:37:04.437 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:04.437 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 16:37:04.440 +0530 [debug] (index.js) running with opts {}
+2026-03-03 16:37:04.450 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:04.452 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 16:37:04.453 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 16:37:04.453 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 16:37:04.454 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:04.610 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 16:37:04.610 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 16:37:04.967 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.975 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.976 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.976 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.978 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.979 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.980 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.985 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.985 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.985 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.989 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.990 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.993 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.993 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.993 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.995 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:04.997 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:05.007 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:05.369 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 16:37:05.369 +0530 [debug] (validate.js) running validator actions
+2026-03-03 16:37:05.369 +0530 [debug] (validate.js) running validator requests
+2026-03-03 16:37:05.369 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 16:37:05.370 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 16:37:05.370 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 16:37:05.370 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 16:37:05.370 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 16:37:05.370 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 16:37:05.370 +0530 [debug] (validate.js) running validator event
+2026-03-03 16:37:05.381 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 16:37:05.381 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 16:37:05.383 +0530 [debug] (validate.js) running validator lint
+2026-03-03 16:37:05.383 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 16:37:05.385 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 16:37:05.455 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 16:37:05.478 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 16:37:05.478 +0530 [debug] (validate.js) running validator manifest-dependency
+2026-03-03 16:37:05.478 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 16:37:05.478 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 16:37:05.479 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 16:37:05.479 +0530 [debug] (validate.js) skipping validator schema
+2026-03-03 16:37:05.479 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 16:37:05.479 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 16:37:05.483 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 16:37:05.483 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 16:37:05.485 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 16:37:05.485 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 16:37:05.486 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 16:37:05.486 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 16:37:05.486 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 16:37:05.488 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:37:05.488 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 16:37:05.488 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:37:05.488 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 16:37:05.488 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:37:05.490 +0530 [info] ================================================================
+2026-03-03 16:37:05.490 +0530 [info] |                      Validation Summary                      |
+2026-03-03 16:37:05.490 +0530 [info] ================================================================
+2026-03-03 16:37:05.490 +0530 [info] | [1;31mTotal Platform Errors: 0[0m                                     |
+2026-03-03 16:37:05.490 +0530 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2026-03-03 16:37:05.491 +0530 [info] | [1;33mTotal Warnings       : 0[0m                                     |
+2026-03-03 16:37:05.491 +0530 [info] ================================================================
+
+2026-03-03 16:37:05.491 +0530 [info] [32m✔[39m Validation Successful
+2026-03-03 16:37:05.494 +0530 [debug] (report.js) Generating hash for report.json file
+2026-03-03 16:37:07.162 +0530 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":true},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 16:37:07.163 +0530 [debug] (configs.js) loaded global configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"},"log":{"level":"info"}}"
+2026-03-03 16:37:07.163 +0530 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000},"global_apps":{"enabled":"true"}}"
+2026-03-03 16:37:07.163 +0530 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2026-03-03 16:37:07.163 +0530 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":"true"},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2026-03-03 16:37:07.164 +0530 [debug] (logger.js) Starting FDK in node v18.20.8 on darwin
+2026-03-03 16:37:07.164 +0530 [debug] (sequelize.js) setting up sqilite at "/Users/kramasamy/Downloads/agent skills/github-app/.fdk/store.sqlite"
+2026-03-03 16:37:07.164 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:07.164 +0530 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2026-03-03 16:37:07.166 +0530 [debug] (index.js) running with opts {}
+2026-03-03 16:37:07.257 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:07.258 +0530 [debug] (manifest.js) Reloading manifest with {"platform-version":"3.0","modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"engines":{"node":"18.20.8","fdk":"9.8.1"}}.
+2026-03-03 16:37:07.258 +0530 [debug] (manifest.js) Checking if app has multi-oauth configs
+2026-03-03 16:37:07.259 +0530 [debug] (manifest.js) Inferred db,backend,oauth as features.
+2026-03-03 16:37:07.273 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:07.361 +0530 [debug] (coverage.js) INIT: About to merge initial coverage data with 0 files
+2026-03-03 16:37:07.362 +0530 [debug] (coverage.js) INIT: After merge - Files in map: 0
+2026-03-03 16:37:07.388 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/bigint-pivot.js"
+2026-03-03 16:37:07.389 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/entity-field-choice.js"
+2026-03-03 16:37:07.389 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/entity-field.js"
+2026-03-03 16:37:07.390 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/entity.js"
+2026-03-03 16:37:07.390 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/files.js"
+2026-03-03 16:37:07.391 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/oauth-details.js"
+2026-03-03 16:37:07.391 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/record.js"
+2026-03-03 16:37:07.392 +0530 [debug] (index.js) loading model at "/Users/kramasamy/.nvm/versions/node/v18.20.8/lib/node_modules/fdk/lib/models/string-pivot.js"
+2026-03-03 16:37:07.561 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.590 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.591 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.591 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.595 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.600 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.604 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.620 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.621 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.621 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.628 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.629 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.632 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.632 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.632 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.634 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.636 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.648 +0530 [debug] (index.js) 'schema: ' [object Object]
+2026-03-03 16:37:07.806 +0530 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.8.2","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.5","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1772523060714}}
+2026-03-03 16:37:08.192 +0530 [debug] (validate.js) asked to skip the following validations, 
+2026-03-03 16:37:08.193 +0530 [debug] (validate.js) running validator actions
+2026-03-03 16:37:08.193 +0530 [debug] (validate.js) running validator requests
+2026-03-03 16:37:08.193 +0530 [debug] (requests.js) validating request template for "githubCreateIssue"
+2026-03-03 16:37:08.193 +0530 [debug] (validate.js) running validator app-dir
+2026-03-03 16:37:08.194 +0530 [debug] (validate.js) running validator config-dir
+2026-03-03 16:37:08.194 +0530 [debug] (config-dir.js) Checking to see if /Users/kramasamy/Downloads/agent skills/github-app/config/ exists.
+2026-03-03 16:37:08.194 +0530 [debug] (config-dir.js) Fetched the following config files iparams.json,oauth_config.json,requests.json
+2026-03-03 16:37:08.194 +0530 [debug] (validate.js) running validator custom-objects
+2026-03-03 16:37:08.194 +0530 [debug] (validate.js) running validator event
+2026-03-03 16:37:08.204 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 16:37:08.204 +0530 [debug] (validate.js) running validator iparam
+2026-03-03 16:37:08.206 +0530 [debug] (validate.js) running validator lint
+2026-03-03 16:37:08.206 +0530 [debug] (lint.js) passed fix flag: undefined
+2026-03-03 16:37:08.207 +0530 [debug] (lint.js) Running the following lints on the file app/scripts/app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2026-03-03 16:37:08.258 +0530 [debug] (lint.js) Running the following lints on the file server/server.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-dependency-mismatch,no-empty-function
+2026-03-03 16:37:08.278 +0530 [debug] (validate.js) running validator manifest
+2026-03-03 16:37:08.278 +0530 [debug] (validate.js) skipping validator manifest-dependency
+2026-03-03 16:37:08.278 +0530 [debug] (validate.js) running validator oauth
+2026-03-03 16:37:08.278 +0530 [debug] (oauth.js) validating oauth configs file
+2026-03-03 16:37:08.279 +0530 [debug] (validate.js) skipping validator pkgsize
+2026-03-03 16:37:08.279 +0530 [debug] (validate.js) running validator schema
+2026-03-03 16:37:08.279 +0530 [debug] (validate.js) running validator version-check
+2026-03-03 16:37:08.279 +0530 [debug] (validate.js) running validator app-settings
+2026-03-03 16:37:08.282 +0530 [debug] (event.js) Found ["onAppInstallHandler","getLinkedIssue","createGithubIssue","linkExistingIssue","unlinkIssue"] as exported functions.
+2026-03-03 16:37:08.282 +0530 [debug] (manifest.js) Validating function createGithubIssue
+2026-03-03 16:37:08.284 +0530 [debug] (manifest.js) Validating function getLinkedIssue
+2026-03-03 16:37:08.285 +0530 [debug] (requests.js) validating request template for "githubGetIssue"
+2026-03-03 16:37:08.285 +0530 [debug] (manifest.js) Validating function linkExistingIssue
+2026-03-03 16:37:08.285 +0530 [debug] (manifest.js) Validating function unlinkIssue
+2026-03-03 16:37:08.285 +0530 [debug] (requests.js) validating request template for "freshdeskCreateNote"
+2026-03-03 16:37:08.287 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:37:08.287 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 16:37:08.287 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:37:08.287 +0530 [debug] (request.js) After merge {"oauth":"github","retryDelay":0,"maxAttempts":1,"asLoggedInUser":false,"oauthType":"account"}
+2026-03-03 16:37:08.287 +0530 [debug] (request.js) Checking request template for multi-oauth app
+2026-03-03 16:37:08.290 +0530 [debug] (watcher.js) Preparing to watch the following files ./app,./config,./manifest.json
+2026-03-03 16:37:08.293 +0530 [debug] (install.js) dependency installer called with {}
+2026-03-03 16:37:08.293 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:37:08.293 +0530 [debug] (custom-objects.js) to force or not? undefined
+2026-03-03 16:37:08.293 +0530 [debug] (custom-objects.js) beginning to re-sync db
+2026-03-03 16:37:08.386 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:37:08.387 +0530 [debug] (custom-objects.js) updated local store with latest entity hash
+2026-03-03 16:37:08.387 +0530 [debug] (run.js) migrate stored oauth configs from localstore to sqlite
+2026-03-03 16:37:08.387 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:37:08.387 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:37:08.387 +0530 [debug] (oauth.js) migration completed, returning
+2026-03-03 16:37:08.387 +0530 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your current host URL to start testing    
+     
+e.g:     
+2026-03-03 16:37:08.387 +0530 [info]   https://domain.freshdesk.com/a/tickets/1?dev=true
+2026-03-03 16:37:08.387 +0530 [info] 
+Quit the server with Control-C.
+2026-03-03 16:37:08.387 +0530 [info] 
+To test the installation page, visit - http://localhost:10001/custom_configs
+2026-03-03 16:37:08.388 +0530 [info] 
+To simulate product, app setup, and external events, visit - http://localhost:10001/web/test
+2026-03-03 16:37:08.388 +0530 [info] Populating test data with events found in the app
+2026-03-03 16:38:34.612 +0530 [debug] (configs.js) manifest featurers : db,backend,oauth
+2026-03-03 16:38:34.612 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:38:34.618 +0530 [debug] (configs.js) [ [Object] ]
+2026-03-03 16:38:34.620 +0530 [debug] (oauth2.js) Fetching creds for account oauth: github, account: default
+2026-03-03 16:38:34.624 +0530 [debug] (oauth.js) credentials not found for the account
+2026-03-03 16:38:34.633 +0530 [debug] (oauth2.js) handling oauth call for github for account default with callback http://localhost:10001/custom_configs?oauth=github&product=modules&account=default
+2026-03-03 16:38:35.174 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:38:35.176 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:35.179 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:38:35.180 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:35.180 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:35.181 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:35.181 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":null,"endpoint_urls":null,"product_types":{},"currentHost":{"subscribed_modules":null,"endpoint_urls":null,"org_domain":null,"product_types":{}},"isAuthorized":false,"v2":[]}
+2026-03-03 16:38:37.660 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:37.661 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:38:37.662 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:38:37.662 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:37.662 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:37.662 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:38:37.662 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":null,"endpoint_urls":null,"product_types":{},"currentHost":{"subscribed_modules":null,"endpoint_urls":null,"org_domain":null,"product_types":{}},"isAuthorized":false,"v2":[]}
+2026-03-03 16:39:40.477 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true}
+2026-03-03 16:39:42.506 +0530 [debug] (configs.js) manifest featurers : db,backend,oauth
+2026-03-03 16:39:42.507 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:39:42.509 +0530 [debug] (configs.js) [ [Object] ]
+2026-03-03 16:39:42.509 +0530 [debug] (oauth2.js) Fetching creds for account oauth: github, account: default
+2026-03-03 16:39:42.510 +0530 [debug] (oauth.js) credentials not found for the account
+2026-03-03 16:39:42.513 +0530 [debug] (oauth2.js) handling oauth call for github for account default with callback http://localhost:10001/custom_configs?oauth=github&product=modules&account=default
+2026-03-03 16:39:43.085 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:39:43.087 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:39:43.088 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:39:43.088 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:39:43.089 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:39:43.089 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:39:43.089 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":["support_ticket"],"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"product_types":{"freshdesk":"DEFAULT"},"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"product_types":{"freshdesk":"DEFAULT"}},"isAuthorized":false,"v2":[]}
+2026-03-03 16:39:43.092 +0530 [debug] (oauth.js) OAuth record not, returning empty iparams response
+2026-03-03 16:39:50.736 +0530 [debug] (oauth2.js) handling oauth call for github for account default with callback http://localhost:10001/custom_configs?oauth=github&product=modules&account=default
+2026-03-03 16:39:50.738 +0530 [debug] (oauth.js) OAuth record not, returning empty iparams response
+2026-03-03 16:39:50.739 +0530 [debug] (oauth.js) OAuth record not, returning empty iparams response
+2026-03-03 16:39:50.740 +0530 [debug] (oauth.js) Storing iparam 
+2026-03-03 16:39:50.741 +0530 [debug] (oauth.js) OAuth record not found creating one while storing iparam
+2026-03-03 16:40:00.933 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:40:00.935 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:00.936 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:40:00.937 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:00.937 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:00.938 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:00.938 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":["support_ticket"],"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"product_types":{"freshdesk":"DEFAULT"},"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"product_types":{"freshdesk":"DEFAULT"}},"isAuthorized":false,"v2":[]}
+2026-03-03 16:40:02.303 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:04.326 +0530 [debug] (configs.js) manifest featurers : db,backend,oauth
+2026-03-03 16:40:04.326 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:40:04.328 +0530 [debug] (configs.js) [ [Object] ]
+2026-03-03 16:40:04.328 +0530 [debug] (oauth2.js) Fetching creds for account oauth: github, account: default
+2026-03-03 16:40:04.333 +0530 [debug] (oauth2.js) handling oauth call for github for account default with callback http://localhost:10001/custom_configs?oauth=github&product=modules&account=default
+2026-03-03 16:40:04.937 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:40:04.938 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:04.940 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:40:04.940 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:04.940 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:04.940 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:04.941 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":["support_ticket"],"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"product_types":{"freshdesk":"DEFAULT"},"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"product_types":{"freshdesk":"DEFAULT"}},"isAuthorized":false,"v2":[]}
+2026-03-03 16:40:07.918 +0530 [debug] (oauth2.js) handling oauth call for github for account default with callback http://localhost:10001/custom_configs?oauth=github&product=modules&account=default
+2026-03-03 16:40:07.924 +0530 [debug] (oauth.js) Storing iparam 
+2026-03-03 16:40:33.322 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:40:33.327 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.328 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:40:33.329 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.330 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.330 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.330 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":["support_ticket"],"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"product_types":{"freshdesk":"DEFAULT"},"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"product_types":{"freshdesk":"DEFAULT"}},"isAuthorized":false,"v2":[]}
+2026-03-03 16:40:33.332 +0530 [debug] (oauth.js) Fetching oauth configs of product : modules
+2026-03-03 16:40:33.333 +0530 [debug] (iframe.js) Checking is authorized for all oauths github
+2026-03-03 16:40:33.333 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.333 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.333 +0530 [debug] (data.js) Read {"report_hash":"fa33ec54f6d36794becce1a7a0a9584cc8d7554d7d0121a6fba61f45f384bc8d","github_101_101_migrate_oauth_status":true,"github_101_101_modules":{"github_101_101_system_settings":{"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"org_domain":"test.io","product_types":{"freshdesk":"DEFAULT"}}}}}
+2026-03-03 16:40:33.333 +0530 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"github-app","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}}},"modules":{"common":{"requests":{"githubCreateIssue":{},"githubGetIssue":{},"freshdeskCreateNote":{}},"functions":{"createGithubIssue":{"timeout":20},"getLinkedIssue":{"timeout":20},"linkExistingIssue":{"timeout":20},"unlinkIssue":{"timeout":20}},"events":{"onAppInstall":{"handler":"onAppInstallHandler"}}},"support_ticket":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}}}},"features":["db","backend","oauth"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"3.0","isInstall":true,"oauth_configs_list":[{"name":"github","type":"account","isAuthorized":false}],"subscribed_modules":["support_ticket"],"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"product_types":{"freshdesk":"DEFAULT"},"currentHost":{"endpoint_urls":{"freshdesk":"https://test21312.freshdesk.com"},"subscribed_modules":["support_ticket"],"product_types":{"freshdesk":"DEFAULT"}},"isAuthorized":false,"v2":[]}

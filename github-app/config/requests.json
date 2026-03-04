@@ -1,0 +1,47 @@
+{
+  "githubCreateIssue": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "api.github.com",
+      "path": "/repos/<%= iparam.default_repo %>/issues",
+      "headers": {
+        "Authorization": "Bearer <%= access_token %>",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json"
+      }
+    },
+    "options": {
+      "oauth": "github"
+    }
+  },
+  "githubGetIssue": {
+    "schema": {
+      "protocol": "https",
+      "method": "GET",
+      "host": "api.github.com",
+      "path": "/repos/<%= iparam.default_repo %>/issues/<%= context.issue_number %>",
+      "headers": {
+        "Authorization": "Bearer <%= access_token %>",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28"
+      }
+    },
+    "options": {
+      "oauth": "github"
+    }
+  },
+  "freshdeskCreateNote": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "<%= context.freshdesk_domain %>",
+      "path": "/api/v2/tickets/<%= context.ticket_id %>/notes",
+      "headers": {
+        "Authorization": "Basic <%= encode(iparam.freshdesk_api_key) %>",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
