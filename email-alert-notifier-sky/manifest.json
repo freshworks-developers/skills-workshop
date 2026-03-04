@@ -1,0 +1,39 @@
+{
+  "platform-version": "3.0",
+  "modules": {
+    "common": {
+      "events": {
+        "onAppInstall": {
+          "handler": "onAppInstallHandler"
+        }
+      },
+      "requests": {
+        "sendEmail": {}
+      }
+    },
+    "support_ticket": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        },
+        "onTicketUpdate": {
+          "handler": "onTicketUpdateHandler"
+        }
+      }
+    },
+    "service_ticket": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onServiceTicketCreateHandler"
+        },
+        "onTicketUpdate": {
+          "handler": "onServiceTicketUpdateHandler"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.15.0",
+    "fdk": "9.7.4"
+  }
+}

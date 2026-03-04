@@ -1,0 +1,41 @@
+{
+  "resend_api_key": {
+    "display_name": "Resend API Key",
+    "description": "API key from your Resend account (resend.com/api-keys)",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "from_email": {
+    "display_name": "From Email",
+    "description": "Verified sender email in Resend (e.g. alerts@yourdomain.com)",
+    "type": "text",
+    "required": true
+  },
+  "recipient_emails": {
+    "display_name": "Recipient Emails",
+    "description": "Comma-separated list of email addresses to receive alerts",
+    "type": "text",
+    "required": true
+  },
+  "email_subject_prefix": {
+    "display_name": "Email Subject Prefix",
+    "description": "Prefix added to alert email subjects",
+    "type": "text",
+    "required": false,
+    "default_value": "[Alert]"
+  },
+  "priority_filter": {
+    "display_name": "Priority Filter",
+    "description": "Which ticket priorities should trigger email alerts",
+    "type": "dropdown",
+    "required": true,
+    "default_value": "high_and_urgent",
+    "options": [
+      "all",
+      "high_and_urgent",
+      "high",
+      "urgent"
+    ]
+  }
+}
