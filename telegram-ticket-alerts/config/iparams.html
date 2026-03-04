@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telegram Ticket Alerts – Configuration</title>
+  <link rel="stylesheet" href="./assets/iparams.css" />
+  <script defer src="{{{appclient}}}"></script>
+</head>
+<body>
+  <main class="form">
+    <h3>Telegram Ticket Alerts</h3>
+    <form>
+      <fw-input
+        class="bot-token-field"
+        type="password"
+        label="Telegram Bot Token"
+        placeholder="From @BotFather"
+        required
+      ></fw-input>
+      <fw-input
+        class="chat-id-field"
+        type="text"
+        label="Telegram Chat ID"
+        placeholder="e.g. -1001234567890 (group/channel)"
+        required
+      ></fw-input>
+      <fw-checkbox class="filter-high-priority-field">
+        Send alerts only for high/urgent priority tickets
+      </fw-checkbox>
+      <fw-checkbox class="daily-digest-field">
+        Enable daily digest of new tickets
+      </fw-checkbox>
+      <div id="error_div" class="error-message" style="display: none;"></div>
+    </form>
+  </main>
+  <script defer src="./assets/iparams.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+</body>
+</html>

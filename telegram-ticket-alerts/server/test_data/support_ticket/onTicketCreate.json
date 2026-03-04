@@ -1,0 +1,20 @@
+{
+  "region": "US",
+  "data": {
+    "ticket": {
+      "id": 165,
+      "subject": "Support Needed...",
+      "priority": 1,
+      "description_text": "Some details on the issue ..."
+    },
+    "requester": {
+      "id": 48014615863,
+      "name": "Rachel",
+      "email": "rachel@freshdesk.com"
+    }
+  },
+  "account_id": "11010177632",
+  "domain": "sample.freshdesk.com",
+  "event": "onTicketCreate",
+  "timestamp": 1636116313.9754386
+}

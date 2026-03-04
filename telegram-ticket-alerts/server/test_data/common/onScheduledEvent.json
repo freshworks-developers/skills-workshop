@@ -1,0 +1,10 @@
+{
+  "timestamp": 1496400354326,
+  "account_id": "11010177632",
+  "domain": "sample.freshdesk.com",
+  "event": "onScheduledEvent",
+  "region": "US",
+  "data": {
+    "account_id": "11010177632"
+  }
+}
