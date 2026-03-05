@@ -1,0 +1,14 @@
+{
+  "sendEmail": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "api.resend.com",
+      "path": "/emails",
+      "headers": {
+        "Authorization": "Bearer <%= iparam.resend_api_key %>",
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
