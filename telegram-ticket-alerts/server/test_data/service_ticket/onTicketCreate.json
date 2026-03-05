@@ -1,0 +1,21 @@
+{
+  "region": "US",
+  "data": {
+    "ticket": {
+      "id": 1001,
+      "subject": "Hardware request",
+      "priority": 3,
+      "category": "Hardware",
+      "department_id": 2,
+      "department_name": "HR"
+    },
+    "requester": {
+      "name": "Jane Doe",
+      "email": "jane@example.com"
+    }
+  },
+  "account_id": "11010177632",
+  "domain": "sample.freshservice.com",
+  "event": "onTicketCreate",
+  "timestamp": 1636116313.9754386
+}

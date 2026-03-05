@@ -1,0 +1,21 @@
+.form {
+  max-width: 480px;
+  padding: 1rem;
+}
+
+.form h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.form fw-input,
+.form fw-checkbox {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: #c00;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,21 @@
+{
+  "telegramGetMe": {
+    "schema": {
+      "protocol": "https",
+      "method": "GET",
+      "host": "api.telegram.org",
+      "path": "/bot<%= context.bot_token %>/getMe"
+    }
+  },
+  "telegramSendMessage": {
+    "schema": {
+      "protocol": "https",
+      "method": "POST",
+      "host": "api.telegram.org",
+      "path": "/bot<%= context.bot_token %>/sendMessage",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+}
