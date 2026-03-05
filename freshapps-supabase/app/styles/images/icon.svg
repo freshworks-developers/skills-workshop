@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <!-- Database cylinder body -->
+  <ellipse cx="32" cy="18" rx="18" ry="6" fill="#3ECF8E"/>
+  <rect x="14" y="18" width="36" height="24" fill="#3ECF8E" opacity="0.8"/>
+  <ellipse cx="32" cy="42" rx="18" ry="6" fill="#3ECF8E"/>
+
+  <!-- Cylinder outline -->
+  <ellipse cx="32" cy="18" rx="18" ry="6" stroke="#1A7A55" stroke-width="1.5" fill="none"/>
+  <ellipse cx="32" cy="42" rx="18" ry="6" stroke="#1A7A55" stroke-width="1.5" fill="none"/>
+  <line x1="14" y1="18" x2="14" y2="42" stroke="#1A7A55" stroke-width="1.5"/>
+  <line x1="50" y1="18" x2="50" y2="42" stroke="#1A7A55" stroke-width="1.5"/>
+
+  <!-- Sync arrows below cylinder -->
+  <path d="M24 52 Q20 56 20 60 Q24 58 26 60 Q24 56 28 54 Z" fill="#1A7A55"/>
+  <path d="M40 52 Q44 48 44 44 Q40 46 38 44 Q40 48 36 50 Z" fill="#1A7A55"/>
+  <path d="M24 52 Q32 46 40 52" stroke="#1A7A55" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

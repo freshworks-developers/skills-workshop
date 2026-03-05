@@ -1,0 +1,11 @@
+{
+  "timestamp": 1741046400000,
+  "account_id": "13",
+  "domain": "https://sample.freshdesk.com",
+  "event": "onAppUninstall",
+  "region": "US",
+  "iparams": {
+    "supabase_project_ref": "your-project-ref",
+    "table_name": "ticket_snapshots"
+  }
+}

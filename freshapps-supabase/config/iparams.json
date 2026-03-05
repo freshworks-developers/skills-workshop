@@ -1,0 +1,22 @@
+{
+  "supabase_project_ref": {
+    "display_name": "Supabase Project Reference",
+    "description": "The project reference ID from your Supabase URL. For https://xyz.supabase.co, enter: xyz (lowercase letters and numbers only, no URL or slashes)",
+    "type": "text",
+    "required": true
+  },
+  "supabase_key": {
+    "display_name": "Supabase API Key",
+    "description": "Your anon or service_role key. Found in Supabase Dashboard → Project Settings → API.",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+  "table_name": {
+    "display_name": "Table Name",
+    "description": "The Supabase table that will store ticket snapshots. Use lowercase letters, numbers, and underscores (e.g. ticket_snapshots). Must exist before app installation.",
+    "type": "text",
+    "required": true,
+    "default_value": "ticket_snapshots"
+  }
+}
